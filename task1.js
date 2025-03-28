@@ -1,5 +1,5 @@
 export class Player {
-    constructor(name,) {
+    constructor(name) {
       this.name = name;
       
     }
@@ -8,4 +8,3 @@ export class Player {
   }
   const player = new Player("Alex");
   console.log(player);
-  
